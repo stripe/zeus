@@ -157,6 +157,8 @@ int main(int argc, char *argv[])
             continue;
         }
 
+        log("successfully connected on port %d.\n", port)
+
         for (;;) {
             fd_set fds;
             int ret;
