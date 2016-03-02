@@ -1,7 +1,7 @@
 package statuschart
 
 import (
-	"github.com/burke/zeus/go/processtree"
+	"github.com/stripe/zeus/go/processtree"
 	"strings"
 )
 

@@ -1,4 +1,4 @@
-PACKAGE=github.com/burke/zeus
+PACKAGE=github.com/stripe/zeus
 VERSION=$(shell cat VERSION)
 GEM=rubygem/pkg/zeus-$(VERSION).gem
 GEM_LINUX=rubygem-linux/pkg/zeus-$(VERSION).gem

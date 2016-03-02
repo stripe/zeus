@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/burke/zeus/go/messages"
-	slog "github.com/burke/zeus/go/shinylog"
-	"github.com/burke/zeus/go/unixsocket"
+	"github.com/stripe/zeus/go/messages"
+	slog "github.com/stripe/zeus/go/shinylog"
+	"github.com/stripe/zeus/go/unixsocket"
 )
 
 type SlaveMonitor struct {

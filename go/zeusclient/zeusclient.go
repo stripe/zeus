@@ -9,12 +9,12 @@ import (
 	"syscall"
 
 	"github.com/burke/ttyutils"
-	"github.com/burke/zeus/go/config"
-	"github.com/burke/zeus/go/messages"
-	slog "github.com/burke/zeus/go/shinylog"
-	"github.com/burke/zeus/go/unixsocket"
-	"github.com/burke/zeus/go/zerror"
 	"github.com/kr/pty"
+	"github.com/stripe/zeus/go/config"
+	"github.com/stripe/zeus/go/messages"
+	slog "github.com/stripe/zeus/go/shinylog"
+	"github.com/stripe/zeus/go/unixsocket"
+	"github.com/stripe/zeus/go/zerror"
 )
 
 const (

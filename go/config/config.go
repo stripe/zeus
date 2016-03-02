@@ -7,8 +7,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/burke/zeus/go/processtree"
-	"github.com/burke/zeus/go/zerror"
+	"github.com/stripe/zeus/go/processtree"
+	"github.com/stripe/zeus/go/zerror"
 )
 
 var Args = os.Args[1:]

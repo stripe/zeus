@@ -5,7 +5,7 @@ import (
 	"os"
 	"syscall"
 
-	slog "github.com/burke/zeus/go/shinylog"
+	slog "github.com/stripe/zeus/go/shinylog"
 )
 
 var finalOutput []func()

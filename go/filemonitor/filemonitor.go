@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	slog "github.com/burke/zeus/go/shinylog"
+	slog "github.com/stripe/zeus/go/shinylog"
 )
 
 // {{{ public API

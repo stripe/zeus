@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/burke/zeus/go/config"
+	"github.com/stripe/zeus/go/config"
 )
 
 func TestDefaultConfigFile(t *testing.T) {

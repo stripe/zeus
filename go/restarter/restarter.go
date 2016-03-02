@@ -1,8 +1,8 @@
 package restarter
 
 import (
-	"github.com/burke/zeus/go/processtree"
-	slog "github.com/burke/zeus/go/shinylog"
+	"github.com/stripe/zeus/go/processtree"
+	slog "github.com/stripe/zeus/go/shinylog"
 	"time"
 )
 

@@ -3,10 +3,10 @@ package statuschart
 import (
 	"fmt"
 	"github.com/burke/ttyutils"
-	slog "github.com/burke/zeus/go/shinylog"
+	slog "github.com/stripe/zeus/go/shinylog"
 	"strings"
 
-	"github.com/burke/zeus/go/processtree"
+	"github.com/stripe/zeus/go/processtree"
 	"os"
 )
 

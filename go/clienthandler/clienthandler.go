@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/burke/zeus/go/messages"
-	"github.com/burke/zeus/go/processtree"
-	slog "github.com/burke/zeus/go/shinylog"
-	"github.com/burke/zeus/go/unixsocket"
-	"github.com/burke/zeus/go/zerror"
+	"github.com/stripe/zeus/go/messages"
+	"github.com/stripe/zeus/go/processtree"
+	slog "github.com/stripe/zeus/go/shinylog"
+	"github.com/stripe/zeus/go/unixsocket"
+	"github.com/stripe/zeus/go/zerror"
 )
 
 func Start(tree *processtree.ProcessTree, done chan bool) chan bool {
